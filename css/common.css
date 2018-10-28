@@ -11,6 +11,11 @@ a{
 body{
     font:12px/1.5 tahoma,arial,"\5b8b\4f53";
 }
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 /* 行元素或行级快元素，inline/inline-block通过设置父元素的text-align:center居中 */
 /* banner开始 */
 .banner{
@@ -29,6 +34,7 @@ body{
     height: 40px;
     border-bottom-color: transparent !important;
     box-shadow: 0 2px 4px 0px rgba(0,0,0,0.30);
+    margin-bottom: 5px;
 }
 .wrapper{
     height: 40px;
