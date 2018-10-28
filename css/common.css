@@ -9,6 +9,7 @@ a{
     text-decoration: none;
 }
 body{
+    height: 5000px;
     font:12px/1.5 tahoma,arial,"\5b8b\4f53";
 }
 .clearfix::after{
@@ -115,11 +116,13 @@ body{
     background: #ffffff;
     border: 1px solid #eeeeee;
     border-top: none;
-    padding: 10px 17px;
+    margin-top: -11px;
+    padding: 13px 12px;
     width: 74px;
-    line-height: 30px;
+    line-height: 40px;
     color: #999;
     display: none;
+    
 }
 .sub-list a{
     color: #999;
