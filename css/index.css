@@ -54,7 +54,7 @@
     line-height: 35px;
     width: 860px;
     margin:0 auto;
-    padding: 0 200px
+    padding: 0 200px;
 }
 .inner-cont img{
     width: 100px;
@@ -82,17 +82,18 @@
     height: 500px;
     width: 1239px;
     margin: 0 auto;
-
+    position: relative;
 }
 .category{
     width: 200px;
     margin-left: -7px;
     height: 500px;
-    position: relative;
+    position: absolute;
     top:-36px;
 }
 .cate-title{
     height: 36px; 
+    line-height: 36px;
     color: #fff;
     background: #ff0036;
     padding: 0 8px;
@@ -102,6 +103,8 @@
 }
 .main-cate-box{
     background: rgba(0,0,0,0.55);
+    height: 500px;
+    position: relative;
 }
 .category .main-cate{
     height: 31px;
@@ -215,4 +218,65 @@
 .category .main-cate:nth-child(16):hover>a{
     color: #3bc7b0;
 }
+.cate-sub-list{
+    width: 805px;
+    height: 500px;
+    background: #fff;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    display: none;
+}
+.category .main-cate:hover .cate-sub-list{
+    display: block;
+}
+.list-left{
+    width: 572px;
+    height: 462px;
+    float: left;
+    padding: 19px 19px;
+}
+.list-right{
+    width: 189px;
+    height: 500px;
+    float: right;
+}
+.list-left-title{
+    width: 92px;
+    float: left;
+    color:#333;
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 22px;
+    margin-top: 5px;
 
+}
+.list-left-con{
+    width: 480px;
+    float: left;
+    border-bottom: 1px dashed rgba(0,0,0,0.1);
+}
+.list-left-con a{
+    color: #666;
+    font-size: 14px;
+    margin-right:13px;
+}
+.list-left-con li{
+    float: left;
+}
+.list-left-row{
+    margin: 5px 0;
+}
+.list-left-con a.special-color{
+    color:#e54077;
+}
+.list-left-con a:hover{
+    color: #e54077;
+}
+.space1{
+    letter-spacing: 7px;
+}
+.list-left-title span{
+    color:#666;
+}
+/* 轮播图 */
