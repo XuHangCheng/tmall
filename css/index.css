@@ -384,19 +384,25 @@
     background: rgba(0, 0, 0, 0.8);
     opacity: 0;
     transition: opacity 0.3s ease ;
+    text-align: center;
 }
 .coupon{
     color:#fff;
     text-align: center;
     margin-top: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
 }
 .enter{
+    display:inline-block;
     width: 63px;
     height: 18px;
+    line-height: 18px;
     background: #ff0036;
     color: #fff;
     text-align: center;
-    line-height: 18px;
     border-radius: 9px;
     margin-top: 5px;
 }
@@ -405,6 +411,9 @@
 }
 .brand-logo li:hover .brand-logo-mask{
     opacity: 1;
+}
+.brand-logo li{
+    float: left;
 }
 
 
