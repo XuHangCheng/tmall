@@ -357,5 +357,55 @@
     font-size: 16px;
     color: #666;
     padding-right: 6px;
-
 }
+/* logo */
+.brand-logo{
+    margin-top: 15px;
+}
+.brand-logo li{
+    width: 122px;
+    height: 108px;
+    overflow: hidden;
+    position: relative;
+}
+.brand-logo li img{
+    width: 82%;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(50%);
+}
+.brand-logo-mask{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 122px;
+    height: 108px;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s ease ;
+}
+.coupon{
+    color:#fff;
+    text-align: center;
+    margin-top: 38px;
+}
+.enter{
+    width: 63px;
+    height: 18px;
+    background: #ff0036;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 9px;
+    margin-top: 5px;
+}
+.brand-logo li:hover .brand-logo-mask{
+    display: block;
+}
+.brand-logo li:hover .brand-logo-mask{
+    opacity: 1;
+}
+
+
+
