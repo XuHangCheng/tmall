@@ -85,12 +85,22 @@ body{
 .header-list .list-menu{
     position: relative;
 }
+/* 商家支持 */
 .list-menu:hover>a{
     background: #ffffff;
     color: #ff0036;
 }
 .list-menu>a:hover{
     text-decoration: underline;
+}
+.list-menu .list-menu-list{
+    width: 101px;
+    overflow: hidden;
+    right: 0;
+    left: auto;
+}
+.list-menu .list-menu-list h3{
+    font-weight: 700;
 }
 .arrow{
     width: 0;
